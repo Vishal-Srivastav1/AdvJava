@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1 style="color:red;text-align:center">welcome to servlet <h1>
+ <form name="Frm" action="UrlCaptial"  method="GET">
+   select Country:: <select name="country" onchange="send()">
+               <option  value ="-1"> select Country</option>
+               <option  value="0"> India</option>  
+               <option  value="1"> Pakistan</option>
+               <option  value="2"> USA</option>
+               <option  value="3"> China</option>
+   
+   </select>
+   
+   </form>
+   <script language="javaScript" >
+   function send(){
+      Frm.submit(); 
+   }
+   </script>
+
+</body>
+</html>
